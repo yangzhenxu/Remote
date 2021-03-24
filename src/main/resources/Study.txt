@@ -1,0 +1,2 @@
+1，springboot的核心在pom.xml在这个<artifactId>spring-boot-starter-parent</artifactId>。这里对依赖的版本统一进行管理
+2，
