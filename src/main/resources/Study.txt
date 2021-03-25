@@ -1,2 +1,9 @@
-1，springboot的核心在pom.xml在这个<artifactId>spring-boot-starter-parent</artifactId>。这里对依赖的版本统一进行管理
-2，
+1，springboot的核心在pom.xml在这个<artifactId>spring-boot-starter-parent</artifactId>。这里对依赖的版本统一进行管理。
+2，使用场景：有好的的启动器，只需要找到相应的启动器。
+3，主程序：主程序启动，所有自动配置这个时候扫描加载。
+4，application.yaml是配置文件，可以将实体类和配置文件里的配置进行匹配。使用该注解@ConfigurationProperties(prefix=“”)
+5，可以使用jsr303校验。
+6，可以配置多个端口启动程序，然后配置激活哪个版本。
+7，配置文件加载优先级，项目根目录/config下>项目根目录>classpath:/config/下>classpath下。
+8，可以通过webjars加载静态资源。
+
